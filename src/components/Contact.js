@@ -1,17 +1,36 @@
 import React, { useState } from 'react'
 
 export default function Contact() {
-    const [name, setName] = useState('')
-    const [email, setEmail] = useState('')
-    const [message, setMessage] = useState('')
-    // eslint-disable-next-line
-    const [error, setError] = useState('')
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+    const [error, setError] = useState('');
+    const [successMessage, setSuccessMessage] = useState('');
+
+    function validateForm() {
+        if (!name || !email || !message) {
+            setError('All fields are required.');
+            return false;
+        }
+        // Simple email validation regex
+        const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+        if (!emailPattern.test(email)) {
+            setError('Please enter a valid email address.');
+            return false;
+        }
+        setError('');
+        return true;
+    }
 
     function onSubmit(e) {
         e.preventDefault();
         e.stopPropagation();
 
-        fetch("https://formcarry.com/s/OL5THyzwkiV", {
+        if (!validateForm()) {
+            return;
+        }
+
+        fetch("https://formkeep.com/f/f6d6e695ed8f", {
             method: 'POST',
             headers: {
                 "Accept": "application/json",
@@ -22,23 +41,18 @@ export default function Contact() {
             .then(response => response.json())
             .then(response => {
                 if (response.code === 200) {
-                    alert("We received your submission, thank you!");
+                    setSuccessMessage("We received your submission, thank you!");
                     setName('');
                     setEmail('');
                     setMessage('');
-                }
-                else if (response.code === 422) {
-                    // Field validation failed
-                    setError(response.message)
-                }
-                else {
-                    // other error from formcarry
-                    setError(response.message)
+                } else if (response.code === 422) {
+                    setError(response.message);
+                } else {
+                    setError(response.message);
                 }
             })
             .catch(error => {
-                // request related error.
-                setError(error.message ? error.message : error);
+                setError(error.message || error);
             });
     }
 
@@ -122,7 +136,10 @@ export default function Contact() {
 
                     <div className="card p-3 m-3 col-md-5" style={{ backgroundColor: 'var(--color-2)', border: 'none', borderRadius: '20px' }}>
                         <h3 className='text-center' style={{ color: 'var(--color-6)', fontSize: '30px' }}>Contact Form</h3>
-                        <form onSubmit={(e) => onSubmit(e)}>
+                        <form onSubmit={onSubmit}>
+                            {error && <div className="alert alert-danger">{error}</div>}
+                            {successMessage && <div className="alert alert-success">{successMessage}</div>}
+
                             <div className="form-group formcarry-block">
                                 <label style={{ color: 'var(--color-5)' }} htmlFor="name">Full Name</label>
                                 <input className='mb-2' style={{ backgroundColor: 'var(--color-2)', padding: '7px', color: 'var(--color-6)', borderRadius: '5px', width: '100%', border: '1px solid var(--color-6)', outline: 'none' }} type="text" value={name} onChange={(e) => setName(e.target.value)} id="name" required />

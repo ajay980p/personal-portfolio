@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Signature from "../assets/images/Signature.png"
 
 export default function NavBar() {
     const closeNav = () => {
@@ -9,7 +10,9 @@ export default function NavBar() {
         <div>
             <nav className="navbar navbar-expand-lg" style={{ backgroundColor: 'var(--color-1)' }}>
                 <div className="container-fluid">
-                    <a className="navbar-brand mx-2 mb-0" href="/"><h1 className='mb-0' style={{ fontWeight: '900', position: 'relative' }}>AJ</h1></a>
+                    <a className="navbar-brand mx-2 mb-0" href="/"><h1 className='mb-0' style={{ fontWeight: '900', position: 'relative' }}>
+                        <img src={Signature} alt='ajay prajapati' style={{ height: '60px' }} />
+                    </h1></a>
                     <div className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" style={{ border: "none", outline: 'none', "&:active": { oultline: "none" }, margin: '0' }}>
                         <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="var(--color-4)" className="bi bi-list" viewBox="0 0 16 16">
                             <path fillRule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />

@@ -32,19 +32,22 @@ export default function About() {
                             <h3 className='mb-4 text-center' style={{ color: 'var(--color-6)', fontSize: '35px', fontWeight: '700' }}>Hobbies</h3>
                             <ul>
                                 <li className='mb-2' style={{ color: 'var(--color-5)', fontSize: '17px' }}>
-                                    Competitive Programming
+                                    Web Development
                                 </li>
                                 <li className='mb-2' style={{ color: 'var(--color-5)', fontSize: '17px' }}>
-                                    Web Development
+                                    Hacking
                                 </li>
                                 <li className='mb-2' style={{ color: 'var(--color-5)', fontSize: '17px' }}>
                                     Reading Books
                                 </li>
                                 <li className='mb-2' style={{ color: 'var(--color-5)', fontSize: '17px' }}>
-                                    Playing Chess
+                                    Playing Games
                                 </li>
                                 <li className='mb-2' style={{ color: 'var(--color-5)', fontSize: '17px' }}>
                                     Listening to Music
+                                </li>
+                                <li className='mb-2' style={{ color: 'var(--color-5)', fontSize: '17px' }}>
+                                    Travelling
                                 </li>
                             </ul>
                         </div>
