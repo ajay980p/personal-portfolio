@@ -45,7 +45,7 @@ a:visited{
   color: var(--color-6)!important;
 }
 .banner-left{
-  width: 40%;
+  width: 50%;
   margin: auto;
   color: var(--color-5);
   font-size: 50px;

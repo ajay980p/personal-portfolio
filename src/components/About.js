@@ -5,7 +5,7 @@ export default function About() {
         <>
             <div className="row about m-3 mb-5">
                 <div className="col-12 col-md-3 m-auto d-flex justify-content-center align-items-center my-5">
-                    <img src="https://avatars.githubusercontent.com/u/140067860?v=4" alt="Humanshu Jaglan" style={{ width: '90%', borderRadius: '50%' }} />
+                    <img src="https://avatars.githubusercontent.com/ajay980p?v=4" alt="Ajay Prajapati" style={{ width: '90%', borderRadius: '50%' }} />
                 </div>
                 <div className="col-12 col-md-8 mx-auto mb-5">
                     <h1 className='text-center my-5' style={{ color: 'var(--color-6)', fontSize: '55px', fontWeight: '900' }}>My Overview</h1>
@@ -29,9 +29,6 @@ export default function About() {
                         </div>
 
                         <div className="col-md-4 p-3" style={{ backgroundColor: 'var(--color-2)', borderRadius: '10px' }}>
-
-
-
                             <h3 className='mb-4 text-center' style={{ color: 'var(--color-6)', fontSize: '35px', fontWeight: '700' }}>Hobbies</h3>
                             <ul>
                                 <li className='mb-2' style={{ color: 'var(--color-5)', fontSize: '17px' }}>

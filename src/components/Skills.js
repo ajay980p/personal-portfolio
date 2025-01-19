@@ -18,7 +18,7 @@ export default function Skills() {
                                 <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=white" />
                                 <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=react&logoColor=white" />
                                 <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=typescript&logoColor=white" />
-                                <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Angular-DD0031.svg?style=for-the-badge&logo=angular&logoColor=white" />
+                                <img alt="Static Badge" className="m-1" src="https://img.shields.io/badge/Material--UI-0081CB.svg?style=for-the-badge&logo=mui&logoColor=white" />
                                 <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Next.js-000000.svg?style=for-the-badge&logo=next.js&logoColor=white" />
                             </div>
                         </div>
@@ -27,10 +27,6 @@ export default function Skills() {
                             <div className="col-md-10 m-auto">
                                 <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=node.js&logoColor=white" />
                                 <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Express-000000.svg?style=for-the-badge&logo=express&logoColor=white" />
-                                <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Django-092E20.svg?style=for-the-badge&logo=django&logoColor=white" />
-                                <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/PHP-777BB4.svg?style=for-the-badge&logo=php&logoColor=white" />
-                                <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Flask-000000.svg?style=for-the-badge&logo=flask&logoColor=white" />
-                                <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Laravel-FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white" />
                             </div>
                         </div>
                         <div className="card p-3 m-3 mb-5" style={{ backgroundColor: 'var(--color-2)', border: 'none', borderRadius: '20px', width: '18rem' }}>
@@ -38,24 +34,9 @@ export default function Skills() {
                             <div className="col-md-10 m-auto">
                                 <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/MongoDB-47A248.svg?style=for-the-badge&logo=mongodb&logoColor=white" />
                                 <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/MySQL-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" />
-                                <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/SQLite-003B57.svg?style=for-the-badge&logo=sqlite&logoColor=white" />
-                                <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/PostgreSQL-336791.svg?style=for-the-badge&logo=postgresql&logoColor=white" />
                             </div>
                         </div>
-                        <div className="card p-3 m-3 mb-5" style={{ backgroundColor: 'var(--color-2)', border: 'none', borderRadius: '20px', width: '18rem' }}>
-                            <h3 className='mx-3 pb-2 mb-3' style={{ color: 'var(--color-5)', borderBottom: '3px solid var(--color-5)', display: 'inline' }}>Python Libraries</h3>
-                            <div className="col-md-10 m-auto">
-                                <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/BeautifulSoup-000000.svg?style=for-the-badge&logo=beautifulsoup&logoColor=white" />
-                                <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Google Generative AI-4285F4.svg?style=for-the-badge&logo=google-generative-ai&logoColor=white" />
-                                <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Scrapy-000000.svg?style=for-the-badge&logo=scrapy&logoColor=white" />
-                                <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Keras-D00000.svg?style=for-the-badge&logo=keras&logoColor=white" />
-                                <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/TensorFlow-FF6F00.svg?style=for-the-badge&logo=tensorflow&logoColor=white" />
-                                <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Requests-000000.svg?style=for-the-badge&logo=requests&logoColor=white" />
-                                <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Selenium-43B02A.svg?style=for-the-badge&logo=selenium&logoColor=white" />
-                                <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white" />
-                                <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/NumPy-013243.svg?style=for-the-badge&logo=numpy&logoColor=white" />
-                            </div>
-                        </div>
+
                         <div className="card p-3 m-3 mb-5" style={{ backgroundColor: 'var(--color-2)', border: 'none', borderRadius: '20px', width: '18rem' }}>
                             <h3 className='mx-3 pb-2 mb-3' style={{ color: 'var(--color-5)', borderBottom: '3px solid var(--color-5)', display: 'inline' }}>Devops</h3>
                             <div className="col-md-10 m-auto">
@@ -65,6 +46,7 @@ export default function Skills() {
                                 <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Kubernetes-326CE5.svg?style=for-the-badge&logo=kubernetes&logoColor=white" />
                             </div>
                         </div>
+
                         <div className="card p-3 m-3 mb-5" style={{ backgroundColor: 'var(--color-2)', border: 'none', borderRadius: '20px', width: '18rem' }}>
                             <h3 className='mx-3 pb-2 mb-3' style={{ color: 'var(--color-5)', borderBottom: '3px solid var(--color-5)', display: 'inline' }}>Tools</h3>
                             <div className="col-md-10 m-auto">
@@ -75,37 +57,23 @@ export default function Skills() {
                                 <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Visual Studio Code-007ACC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
                                 <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Repl.it-2r34da.svg?style=for-the-badge&logo=replit&logoColor=white" />
                                 <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white" />
-                                <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Heroku-430098.svg?style=for-the-badge&logo=heroku&logoColor=white" />
                                 <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Vercel-000000.svg?style=for-the-badge&logo=vercel&logoColor=white" />
                                 <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/FileZilla-BF0000.svg?style=for-the-badge&logo=filezilla&logoColor=white" />
                                 <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Render-333.svg?style=for-the-badge&logo=render&logoColor=white" />
                             </div>
                         </div>
+
                         <div className="card p-3 m-3 mb-5" style={{ backgroundColor: 'var(--color-2)', border: 'none', borderRadius: '20px', width: '18rem' }}>
                             <h3 className='mx-3 pb-2 mb-3' style={{ color: 'var(--color-5)', borderBottom: '3px solid var(--color-5)', display: 'inline' }}>Programming Languages</h3>
                             <div className="col-md-10 m-auto">
-                                <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white" />
                                 <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=white" />
+                                <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white" />
                                 <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/C-24.svg?style=for-the-badge&logo=C&logoColor=white" />
-                                <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/PHP-777BB4.svg?style=for-the-badge&logo=php&logoColor=white" />
                                 <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/C++-00599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-                                <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Java-007396.svg?style=for-the-badge&logo=java&logoColor=white" />
                                 <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=typescript&logoColor=white" />
-                                {/* Rust */}
-                                <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Rust-00002C.svg?style=for-the-badge&logo=rust&logoColor=white" />
                             </div>
                         </div>
-                        <div className="card p-3 m-3 mb-5" style={{ backgroundColor: 'var(--color-2)', border: 'none', borderRadius: '20px', width: '18rem' }}>
-                            <h3 className='mx-3 pb-2 mb-3' style={{ color: 'var(--color-5)', borderBottom: '3px solid var(--color-5)', display: 'inline' }}>Graphic Designing</h3>
-                            <div className="col-md-10 m-auto">
-                                <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Adobe Photoshop-31A8FF.svg?style=for-the-badge&logo=adobe-photoshop&logoColor=white" />
-                                <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Adobe Illustrator-FF9A00.svg?style=for-the-badge&logo=adobe-illustrator&logoColor=white" />
-                                <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Canva-7333CC.svg?style=for-the-badge&logo=canva&logoColor=white" />
-                                <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Figma-F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" />
-                                <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Adobe Premiere Pro-9999FF.svg?style=for-the-badge&logo=adobe-premiere-pro&logoColor=white" />
 
-                            </div>
-                        </div>
                         <div className="card p-3 m-3 mb-5" style={{ backgroundColor: 'var(--color-2)', border: 'none', borderRadius: '20px', width: '18rem' }}>
                             <h3 className='mx-3 pb-2 mb-3' style={{ color: 'var(--color-5)', borderBottom: '3px solid var(--color-5)', display: 'inline' }}>Management Skills</h3>
                             <div className="col-md-10 m-auto">
@@ -118,6 +86,7 @@ export default function Skills() {
                                 <img alt="Static Badge" className='m-1' src="https://img.shields.io/badge/Decision Making-FFD700.svg?style=for-the-badge&logo=decision-making&logoColor=white" />
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
