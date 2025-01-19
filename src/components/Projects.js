@@ -2,8 +2,6 @@ import React from 'react'
 import PMSuryaGhar from '../assets/images/PMSuryaGhar.jpg';
 import GCZMA from '../assets/images/GCZMA.jpg';
 import Pizza from '../assets/images/pizza.webp';
-import psychometricImage from '../assets/images/psychometric.png';
-import whiteboardImage from '../assets/images/whiteboard.png';
 
 export default function Projects() {
 
